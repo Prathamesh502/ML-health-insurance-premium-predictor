@@ -3,10 +3,10 @@ from joblib import load
 from sklearn.preprocessing import StandardScaler
 
 # Paths to artifacts
-model_rest_path = r"C:\Users\prath\Desktop\health_premium_prediction_project\app\artifacts\model_rest.joblib"
-model_young_path = r"C:\Users\prath\Desktop\health_premium_prediction_project\app\artifacts\model_young.joblib"
-scaler_rest_path = r"C:\Users\prath\Desktop\health_premium_prediction_project\app\artifacts\scaler_rest3.joblib"
-scaler_young_path = r"C:\Users\prath\Desktop\health_premium_prediction_project\app\artifacts\scaler_young3.joblib"
+model_rest_path = "artifacts/model_rest.joblib"
+model_young_path = "artifacts/model_young.joblib"
+scaler_rest_path = "artifacts/scaler_rest3.joblib"
+scaler_young_path = "artifacts/scaler_young3.joblib"
 
 # Load models and scalers
 model_rest = load(model_rest_path)
